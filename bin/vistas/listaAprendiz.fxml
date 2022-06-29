@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListaAprenController">
+   <children>
+      <ImageView fitHeight="52.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sena.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="165.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lista aprendices" wrappingWidth="322.16796875">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="idActivos" layoutX="64.0" layoutY="63.0" mnemonicParsing="false" onAction="#clickActivos" prefHeight="42.0" prefWidth="167.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="activos">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="idInactivos" layoutX="390.0" layoutY="63.0" mnemonicParsing="false" onAction="#clickInactivos" prefHeight="42.0" prefWidth="167.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="inactivos">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="text" editable="false" layoutX="171.0" layoutY="119.0" prefHeight="162.0" prefWidth="258.0" />
+      <TextArea fx:id="cursostxt" layoutX="461.0" layoutY="141.0" prefHeight="162.0" prefWidth="110.0" />
+      <Text layoutX="496.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cursos" wrappingWidth="66.720703125">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

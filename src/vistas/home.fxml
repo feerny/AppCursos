@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <ImageView fitHeight="52.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sena.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-casa.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="AGCursos" layoutX="81.0" layoutY="17.0" mnemonicParsing="false" onAction="#clickCursos" prefHeight="42.0" prefWidth="167.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="Agregar cursos">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="AGaprendices" layoutX="277.0" layoutY="17.0" mnemonicParsing="false" onAction="#clickAprendices" prefHeight="42.0" prefWidth="130.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="Aprendices">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="AGinstructor" layoutX="438.0" layoutY="17.0" mnemonicParsing="false" onAction="#clickInstructor" prefHeight="40.0" prefWidth="115.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="Instructor">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="idLaprendices" layoutX="39.0" layoutY="180.0" mnemonicParsing="false" onAction="#clickLaprendices" prefHeight="42.0" prefWidth="167.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="lista aprendices">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="idLinstructores" layoutX="34.0" layoutY="234.0" mnemonicParsing="false" onAction="#clickLinstructores" prefHeight="42.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="lista instructores">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="idLcursos" layoutX="412.0" layoutY="159.0" mnemonicParsing="false" onAction="#clickLcursos" prefHeight="42.0" prefWidth="167.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2px 0;" text="cursos ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Text layoutX="76.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="listas" wrappingWidth="93.16796875">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

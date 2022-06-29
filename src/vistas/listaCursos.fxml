@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListaCursoController">
+   <children>
+      <ImageView fitHeight="52.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sena.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="243.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cursos" wrappingWidth="322.16796875">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtCurso" layoutX="203.0" layoutY="63.0" prefHeight="25.0" prefWidth="194.0" promptText="Nombre del curso" style="-fx-border-color: gray; -fx-border-radius: 5;" />
+      <ImageView fx:id="BuscarImg" fitHeight="25.0" fitWidth="26.0" layoutX="404.0" layoutY="64.0" onMouseClicked="#clickBuscar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-búsqueda.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="201.0" fitWidth="136.0" layoutX="440.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-cursos-60.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="txtAprendiz" editable="false" layoutX="200.0" layoutY="159.0" prefHeight="158.0" prefWidth="200.0" />
+      <TextArea fx:id="textInstru" editable="false" layoutX="200.0" layoutY="106.0" prefHeight="17.0" prefWidth="200.0" />
+      <Text layoutX="267.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="instructor/es">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="274.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aprendices" wrappingWidth="72.287109375">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lista cursos">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="txtLcursos" editable="false" layoutX="25.0" layoutY="90.0" prefHeight="215.0" prefWidth="151.0" />
+   </children>
+</Pane>
